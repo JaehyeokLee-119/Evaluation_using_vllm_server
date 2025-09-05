@@ -1,0 +1,15 @@
+[project]
+name = "testvenv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.0.0",
+    "dotenv>=0.9.9",
+    "fastparquet>=2024.11.0",
+    "fire>=0.7.1",
+    "pandas>=2.3.2",
+    "pyarrow>=21.0.0",
+    "vllm==0.10.1",
+]
